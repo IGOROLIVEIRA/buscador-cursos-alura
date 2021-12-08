@@ -1,0 +1,22 @@
+{
+    "name": "softcast/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Softcast\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Igor Ruas,",
+            "email": "ruas.igor@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.4"
+    }
+}
