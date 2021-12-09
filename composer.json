@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Softcast\\BuscadorCursos\\": "src/"
+            "Alura\\BuscadorDeCursos\\": "src/"
         }
     },
     "authors": [
